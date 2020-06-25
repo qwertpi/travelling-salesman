@@ -1,5 +1,7 @@
 # travelling-salesman
 All the code I write while doing [a Coursera course on the TSP](https://www.coursera.org/learn/delivery-problem)
+
+[pathlength.py](pathlength.py): Calcluates the total weight of a specified path through a specified graph
 ## Copyright
 Copyright © 2020  Rory Sharp All rights reserved.
 
