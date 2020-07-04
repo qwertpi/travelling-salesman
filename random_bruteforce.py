@@ -27,7 +27,7 @@ graph = nx.Graph()
 number_of_nodes = 20
 for i in range(0, number_of_nodes):
     for j in range(i, number_of_nodes):
-        graph.add_edge(i, j, weight=randint(1,20))
+        graph.add_edge(i, j, weight=randint(1, 20))
 
 
 nodes = list(graph.nodes())
@@ -58,3 +58,4 @@ try:
         ##sleep(0.25)
 except KeyboardInterrupt:
     print(f"Best cycle is {best_cycle} with weight {best_cycle_len}")
+
