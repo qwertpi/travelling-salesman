@@ -2,7 +2,7 @@
 All the code I write while doing [a Coursera course on the TSP](https://www.coursera.org/learn/delivery-problem)
 
 [pathlength.py](pathlength.py): Calcluates the total weight of a specified path through a specified graph  
-[random_bruteforce.py](random_bruteforce.py): Bruteforce search for best path but generates random paths instead of working through them logically due to the fact that brute force is O(n!) which makes it impracitcal for most graphs, runs indefinetly until killed
+[random_bruteforce.py](random_bruteforce.py): Bruteforce search for best path but generates random paths instead of working through them logically due to the fact that brute force is O(n!) which makes a full search impractical for most graphs, runs indefinetly until killed
 ## Copyright
 Copyright © 2020  Rory Sharp All rights reserved.
 
