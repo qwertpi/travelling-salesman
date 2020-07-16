@@ -56,4 +56,3 @@ for start_node in shuffled_nodes:
     cycle.append(start_node)
     length = CalculateLength(graph, cycle)
     print(f"Produced {cycle} with length {length} from starting node {start_node}")
-    print(graph)

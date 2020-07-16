@@ -17,10 +17,7 @@ def CalculateLength(graph, nodes):
             i += 1
     except IndexError:
         return length
-    except KeyError:
-        print(start, end)
-      
-        
+
 graph = nx.Graph()
 #creates a random graph
 #this can be changed easily
