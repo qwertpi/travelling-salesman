@@ -3,7 +3,8 @@ All the code I write while doing [a Coursera course on the TSP](https://www.cour
 
 [pathlength.py](pathlength.py): Calcluates the total weight of a specified path through a specified graph  
 [random_bruteforce.py](random_bruteforce.py): Bruteforce search for best path but generates random paths instead of working through them logically due to the fact that brute force is O(n!) which makes a full search impractical for most graphs, runs indefinetly until killed  
-[random_bruteforce.py](random_bruteforce.py): Picks a random starting node then picks the nearest node, then picks the nearest node to the one it just went to and so on, goes through all possible starting nodes unless killed prior to halting
+[nearest_neighbour.py](nearest_neighbour.py): Picks a random starting node then picks the nearest node, then picks the nearest node to the one it just went to and so on, goes through all possible starting nodes unless killed prior to halting
+[bounded_random_bruteforce.py](bounded_random_bruteforce.py): Exactly the same as random_bruteforce.py but gives up on a cycle the moment it's length exceeds the shortest cycle to be found so far, thus making it slightly more efficent
 ## Copyright
 Copyright © 2020  Rory Sharp All rights reserved.
 
